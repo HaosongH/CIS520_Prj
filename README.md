@@ -11,3 +11,5 @@ Available datasets include MNIST, CIFAR10, anime, CELEBA
 configuration files are saved in ```./config``` in the yaml format.
 
 Instructions on how to mix and match VAEs are in ```mix.ipynb```, instructions on how to visualize VAE quality in ```visualize.ipynb```
+
+Download existing ckpt from this link https://drive.google.com/drive/folders/1z2RektMDuJg8SCdAX-jKRkuz0NRzDSO7?usp=sharing

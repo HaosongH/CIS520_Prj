@@ -1,0 +1,32 @@
+model_params:
+  name: 'VanillaVAE'
+  in_channels: 3
+  hidden_dims: null
+  latent_dim: 64
+
+
+data_params:
+  data_path: "Data/"
+  train_batch_size: 64
+  val_batch_size:  64
+  patch_size: 64
+  num_workers: 4
+
+
+exp_params:
+  LR: 0.005
+  weight_decay: 0.0
+  scheduler_gamma: 0.95
+  kld_weight: 1
+  recon_weight: 1
+  manual_seed: 1265
+
+trainer_params:
+  gpus: [1]
+  n_epochs: 20
+
+logging_params:
+  save_dir: "logs/"
+  name: "VanillaVAE"
+  
+dataset: "anime"
